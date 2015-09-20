@@ -22,5 +22,5 @@ var app = angular.module('Name',[]);
 app.controller('ChangeName',function($scope){
      $scope.name = 'World';
 });
-
+/* angula.bootstrap is required for creating multiple modules in one page  */
 angular.bootstrap(document, ['myApp','Name']);
